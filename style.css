@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input{
+    margin-left: 330px;
+}
+select{
+    margin-left: 330px;
+}
+#button2{
+
+    margin-left: 500px;
+}
+
+#button{
+
+    margin-left: 430px;
+}
+
+#operacao{
+    margin-left: 370px;
+}
+
+#compraovenda{
+    margin-left: 15px;
+}
+
+#container{
+   
+    align-items: center;
+    justify-content: center;
+    
+}
