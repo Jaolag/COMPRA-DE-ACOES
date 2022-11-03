@@ -100,6 +100,66 @@
           </div>               
       </div>
       <!--Fim Operação-->
+	    
+	<br>           
+        <!--Inicio Botão -->
+        <div class="col-md-2 d-flex justify-content-end" id="button">
+            <button type="button" class="btn btn-primary" onclick="pesquisarDespesa()">Consultar</button>
+           </button>
+        </div>
+            <!--Fim botão-->  
+                
+           
+        <br>
+        <!--Inicio da Tabela-->
+        <div class="row">
+            <div class="col">
+                <h2>Consulta</h2>
+                <table class="table" >
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Codigo</th>
+                            <th>Quantidade</th>
+                            <th>Valor Unitario</th>
+                            <th>Operação</th>
+                            <th>Valor sem taxa</th>
+                            <th>Corretagem</th>
+                            <th>Taxa B3</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaDespesas2" ></tbody>
+              </table>
+            </div>
+        </div>
+        <!--Fim da Tabela-->
+        <br>
+
+        <!--Inicio da Tabela-->
+        <div class="row">
+            <div class="col">
+                <h2>Operações realizadas</h2>
+                <table class="table" >
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Codigo</th>
+                            <th>Quantidade</th>
+                            <th>Valor Unitario</th>
+                            <th>Operação</th>
+                            <th>Valor sem taxa</th>
+                            <th>Corretagem</th>
+                            <th>Taxa B3</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaDespesas"></tbody>
+              </table>
+            </div>
+        </div>
+        <!--Fim da Tabela-->
+
 
     </div>
     <!--Fim container-->
